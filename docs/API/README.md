@@ -42,7 +42,7 @@ API域名：`api.unipjsk.com`
 
 >该api返回数据已被彩盘削减，数据结构大改并且只返回FC/Clear数，如需获取以前的数据只能使用 https://suite.unipjsk.com/ 上传个人信息并勾选公开API读取，然后参考下面一个API
 
-`GET /api/user/{targetUserId}/profile`
+`GET /api/user/319180497351364611/profile`
 
 例如 `GET /api/user/5152947432357899/profile`
 
@@ -53,7 +53,7 @@ API域名：`suite.unipjsk.com`
 
 >注意，域名与上面的api域名并不一样，请注意修改
 
-`GET /api/user/{targetUserId}/profile`
+`GET /api/user/319180497351364611/profile`
 
 例如 `GET /api/user/5152947432357899/profile`
 
@@ -68,7 +68,7 @@ API域名：`suite.unipjsk.com`
 请注意不要修改`/api/user/`后的`{user_id}`否则会请求失败，下同
 ::: 
 
-指定用户id：`GET /api/user/{user_id}/event/{eventid}/ranking?targetUserId={targetUserId}`
+指定用户id：`GET /api/user/{user_id}/event/{eventid}/ranking?targetUserId=319180497351364611`
 
 指定排名：`GET /api/user/{user_id}/event/{eventid}/ranking?targetRank={targetRank}`
 
@@ -79,7 +79,7 @@ API域名：`suite.unipjsk.com`
 ## 查询排位信息
 
 
-指定用户id：`GET /api/user/{user_id}/rank-match-season/{rank-match-season}/ranking?targetUserId={targetUserId}`
+指定用户id：`GET /api/user/{user_id}/rank-match-season/{rank-match-season}/ranking?targetUserId=319180497351364611`
 
 
 指定排名：`GET /api/user/{user_id}/rank-match-season/{rank-match-season}/ranking?targetRank={targetRank}`
@@ -94,7 +94,7 @@ API域名：`suite.unipjsk.com`
 ## 查询个人Profile信息
 
 
-`GET /api/user/{targetUserId}/profile`
+`GET /api/user/319180497351364611/profile`
 
 
 例如 `GET /api/user/5152947432357899/profile`
